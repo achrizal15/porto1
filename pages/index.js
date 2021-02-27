@@ -1,22 +1,37 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Layout from "../components/Layout";
 import About from "./source/About";
 import Contact from "./source/Contact";
 import Home from "./source/Home";
 import Project from "./source/Project";
-
+import * as Smooth from "react-scroll";
 export default function index() {
+  const [bt, setBt] = useState("hidden");
   useEffect(() => {
-    window.addEventListener('scroll', (event) => {
-      console.log('sa')
+    window.addEventListener("scroll", (event) => {
+      if (window.scrollY >= 171) {
+        setBt("");
+      } else {
+        setBt("hidden");
+      }
     });
   }, []);
   return (
     <Layout>
+      <Smooth.Link
+        smooth
+        to="home"
+        className={
+          "z-50 bg-red-600 md:hidden font-bold bg-opacity-30 w-10 p-2 fixed left-2 bottom-2 rounded-r-md " +
+          bt
+        }
+      >
+        Top
+      </Smooth.Link>
       <Home />
       <About />
       <Project />
-      <Contact/>
+      <Contact />
     </Layout>
   );
 }
