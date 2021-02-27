@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Home() {
   return (
-    <div className="bg-blue-300 overflow-hidden h-lg  pt-1  bg-opacity-50">
+    <div className="bg-blue-300 overflow-hidden h-lg  pt-1">
       <div className="flex justify-center mb-1 pt-2">
         <img
           className="rounded-full border-4 border-white shadow"
