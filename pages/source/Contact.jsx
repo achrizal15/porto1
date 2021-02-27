@@ -28,7 +28,7 @@ export default function Contact() {
           ></textarea>
           <br />
           <button
-            type="button"
+            type="reset"
             className="focus:outline-none w-24 bg-white mt-2 p-1.5 shadow-lg  hover:bg-white rounded-lg text-black  border-2 border-transparent hover:border-blue-300  font-bold hover:text-blue-300 transform"
           >
             Submit
