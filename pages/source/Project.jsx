@@ -42,7 +42,7 @@ export default function Project() {
 
 function ProjectCard(props) {
   return (
-    <div className="border-2 shadow-md w-80 rounded-md overflow-hidden bg-white my-4">
+    <div className="border-2 shadow-md w-80 rounded-md overflow-hidden bg-white my-4 mx-4">
       <img className="rounded-b-md w-full" src={props.gbr} alt="pr-1" />
       <div className="px-4 text-gray-600 py-2">
         <p className="font-bold text-lg">{props.judul}</p>
