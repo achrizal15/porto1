@@ -17,7 +17,7 @@ export default function Project() {
             alt="tailwind"
           />
           <img
-            className="rounded-full animate-bounce delay-100 w-10 border border-black object-fill hover:border-green-600"
+            className="rounded-full animate-bounce-slow delay-100 w-10 border border-black object-fill hover:border-green-600"
             src="https://e7.pngegg.com/pngimages/1006/374/png-clipart-web-development-node-js-socket-io-javascript-network-socket-modernization-miscellaneous-logo-thumbnail.png"
             alt="nodejs"
           />
@@ -37,7 +37,7 @@ export default function Project() {
             alt="flutter"
           />
           <img
-            className="rounded-full animate-bounce delay-200  w-10 border border-black object-fill hover:border-yellow-600"
+            className="rounded-full animate-bounce-slow delay-200  w-10 border border-black object-fill hover:border-yellow-600"
             src="https://cdn4.iconfinder.com/data/icons/google-i-o-2016/512/google_firebase-2-512.png"
             alt="firebase"
           />

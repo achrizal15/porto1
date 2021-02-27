@@ -5,6 +5,9 @@ module.exports = {
     extend: {
       spacing: {
         heading: '450px',
+       },
+       animation: {
+        'bounce-slow': 'bounce 1.5s infinite',
        }
     },
   },
