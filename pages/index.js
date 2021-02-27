@@ -22,7 +22,7 @@ export default function index() {
         smooth
         to="home"
         className={
-          "z-50 bg-red-600 md:hidden font-bold bg-opacity-30 w-10 p-2 fixed left-2 bottom-2 rounded-r-md " +
+          "z-50 bg-red-600 md:hidden font-bold bg-opacity-30 w-10 p-2 fixed left-2 bottom-2 rounded-md " +
           bt
         }
       >
