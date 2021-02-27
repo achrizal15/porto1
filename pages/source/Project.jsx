@@ -46,6 +46,7 @@ function ProjectCard(props) {
       <img className="rounded-b-md w-full" src={props.gbr} alt="pr-1" />
       <div className="px-4 text-gray-600 py-2">
         <p className="font-bold text-lg">{props.judul}</p>
+        <hr className='my-2'/>
         <div className="flex space-x-2">{props.children}</div>
       </div>
     </div>
