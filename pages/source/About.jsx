@@ -3,7 +3,6 @@ import React from "react";
 export default function About() {
   return (
     <div>
-      
       <h3 id="about" className="text-center font-bold text-2xl italic mb-4">
         About Me
       </h3>
@@ -11,12 +10,19 @@ export default function About() {
       <div className="grid gap-10 flex py-10 content-center ml-1 italic mr-1 mt-2 grid-rows-1 md:grid-cols-2 md:px-32">
         <div>
           <Card quote="Tetap Semangat" ftc="to-purple-500 from-purple-700">
-            "Saya adalah orang yang suka belajar hal baru, karena hal itu akan menambah kreativitas yang saya miliki. Selain itu Web development dan Mobile development bagi saya disinilah salah satu tempat menuangkan kreativitas yang saya miliki"
+            "Saya adalah orang yang suka belajar hal baru, karena hal itu akan
+            menambah kreativitas yang saya miliki. Selain itu Web development
+            dan Mobile development bagi saya disinilah salah satu tempat
+            menuangkan kreativitas yang saya miliki"
           </Card>
         </div>
         <div>
           <Card quote="Jangan Menyerah" ftc="to-blue-500 from-blue-700">
-            "Saat ini saya menguasai beberapa bahasa pemrograman misalnya saja JavaScript, Css, TypeScript, dan Html pastinya, saya sangat menyukai framework dan library dari JavaScript misalkan ReactJs dengan framework NextJs nya dan banyak hal lagi yang saat ini sedang saya pelajari"
+            "Saat ini saya menguasai beberapa bahasa pemrograman misalnya saja
+            JavaScript, Css, TypeScript, dan Html pastinya, saya sangat menyukai
+            framework dan library dari JavaScript misalkan ReactJs dengan
+            framework NextJs nya dan banyak hal lagi yang saat ini sedang saya
+            pelajari"
           </Card>
         </div>
       </div>
@@ -26,7 +32,7 @@ export default function About() {
 
 function Card(props) {
   return (
-    <div className="shadow-2xl overflow-hidden rounded-xl hover:rotate-0 transition-transform duration-300 md:-rotate-6 transform">
+    <div className="shadow-2xl overflow-hidden rounded-xl hover:rotate-0 transition-transform duration-300 md:-rotate-6 md:transform">
       <div className="px-8 py-5 leading-relaxed  text-xl text-gray-800">
         {props.children}
       </div>

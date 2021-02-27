@@ -5,7 +5,7 @@ export default function Layout(props) {
   return (
     <div className="antialiased font-mono">
       <Head>
-        <title>Portofolioku</title>
+        <title>My Portfolio</title>
       </Head>
       <Navbar/>
       {props.children}
