@@ -7,7 +7,7 @@ export default function About() {
         About Me
       </h3>
 
-      <div className="grid gap-10 flex py-10 content-center ml-1 italic mr-1 mt-2 grid-rows-1 md:grid-cols-2 md:px-32">
+      <div className="grid gap-10 flex py-10 content-center ml-1 italic mr-1 mt-2 grid-rows-1 lg:grid-cols-2 lg:px-32">
         <div>
           <Card quote="Tetap Semangat" ftc="to-purple-500 from-purple-700">
             "Saya adalah orang yang suka belajar hal baru, karena hal itu akan
@@ -32,7 +32,7 @@ export default function About() {
 
 function Card(props) {
   return (
-    <div className="shadow-2xl overflow-hidden rounded-xl hover:rotate-0 transition-transform duration-300 md:-rotate-6 md:transform">
+    <div className="shadow-2xl  overflow-hidden z-0 rounded-xl hover:rotate-0 transition-transform duration-300 lg:transform lg:-rotate-6">
       <div className="px-8 py-5 leading-relaxed  text-xl text-gray-800">
         {props.children}
       </div>
