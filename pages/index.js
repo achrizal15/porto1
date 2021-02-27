@@ -9,7 +9,7 @@ export default function index() {
   const [bt, setBt] = useState("hidden");
   useEffect(() => {
     window.addEventListener("scroll", (event) => {
-      if (window.scrollY >= 171) {
+      if (window.scrollY >= 160) {
         setBt("");
       } else {
         setBt("hidden");
