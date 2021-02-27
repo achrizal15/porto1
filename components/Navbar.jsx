@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <div className="bg-blue-300 md:sticky z-50  top-0">
+    <div className="bg-blue-300 md:sticky hidden md:block z-50  top-0">
       <div className="flex items-center justify-between px-7 antialiased py-2">
         <p className="font-bold italic text-white text-xl font-mono">
           <Link href="#home">Welcome To My Portfolio</Link>
