@@ -50,7 +50,7 @@ export default function Project() {
 function ProjectCard(props) {
   return (
     <div className="flex justify-center">
-    <div className="shadow-lg w-80 border-2 transition hover:scale-110 transform hover:ease-in-out duration-700 rounded-lg overflow-hidden bg-white  my-4">
+    <div className="shadow-xl w-72 md:w-80 hover:rotate-2 border-2 transition hover:scale-110 transform hover:ease-in-out duration-700 rounded-lg overflow-hidden bg-white my-4">
       <img
         className="rounded-b-md w-full  md:h-60 object-cover h-32"
         src={props.gbr}
