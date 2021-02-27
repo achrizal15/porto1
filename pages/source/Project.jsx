@@ -29,7 +29,7 @@ export default function Project() {
           />
         </ProjectCard>
         <ProjectCard
-          rt="md:rotate-2"
+          rt="md:rotate-2 -rotate-6"
           judul="Login Page"
           gbr="https://daengweb.id/uploads/galeri/1/Flutter/mengenal_widget_flutter_-_membuat_form_login-optimize.png"
         >
