@@ -1,8 +1,8 @@
 import React from "react";
 
-export default function Home() {
+export default function Home(props) {
   return (
-    <div className="bg-blue-300 overflow-hidden h-lg  pt-1">
+    <div id='home'  className="bg-blue-300 overflow-hidden h-lg  pt-1">
       <div className="flex justify-center mb-1 pt-2">
         <img
           className="rounded-full border-4 border-white shadow"

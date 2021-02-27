@@ -6,12 +6,10 @@ import Project from "./source/Project";
 
 export default function index() {
   return (
-    <div className="bg-gray-50">
     <Layout>
       <Home />
       <About />
-      <Project/>
+      <Project />
     </Layout>
-    </div>
   );
 }
