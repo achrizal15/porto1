@@ -7,7 +7,7 @@ export default function About() {
         About Me
       </h3>
 
-      <div className="grid gap-10 flex py-10 content-center ml-1 italic mr-1 mt-2 grid-rows-1 lg:grid-cols-2 lg:px-32">
+      <div className="grid gap-10 flex py-10 content-center ml-1 italic mr-1 mt-2 grid-rows-1 md:grid-cols-2 md:px-32">
         <div>
           <Card quote="Tetap Semangat" ftc="to-purple-500 from-purple-700">
             "Saya adalah orang yang suka belajar hal baru, karena hal itu akan
@@ -26,13 +26,14 @@ export default function About() {
           </Card>
         </div>
       </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#93c5fd" fill-opacity="1" d="M0,128L24,149.3C48,171,96,213,144,218.7C192,224,240,192,288,186.7C336,181,384,203,432,176C480,149,528,75,576,58.7C624,43,672,85,720,96C768,107,816,85,864,117.3C912,149,960,235,1008,229.3C1056,224,1104,128,1152,96C1200,64,1248,96,1296,106.7C1344,117,1392,107,1416,101.3L1440,96L1440,320L1416,320C1392,320,1344,320,1296,320C1248,320,1200,320,1152,320C1104,320,1056,320,1008,320C960,320,912,320,864,320C816,320,768,320,720,320C672,320,624,320,576,320C528,320,480,320,432,320C384,320,336,320,288,320C240,320,192,320,144,320C96,320,48,320,24,320L0,320Z"></path></svg>
     </div>
   );
 }
 
 function Card(props) {
   return (
-    <div className="shadow-2xl  overflow-hidden z-0 rounded-xl hover:rotate-0 transition-transform duration-300 lg:transform lg:-rotate-6">
+    <div className="shadow-2xl  overflow-hidden z-0 rounded-xl hover:rotate-0 transition-transform duration-300 md:transform md:-rotate-6">
       <div className="px-8 py-5 leading-relaxed  text-xl text-gray-800">
         {props.children}
       </div>
@@ -65,6 +66,7 @@ function Card(props) {
           </a>
         </div>
       </div>
+      
     </div>
   );
 }
