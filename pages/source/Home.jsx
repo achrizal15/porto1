@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Home(props) {
   return (
-    <div id='home'  className="bg-blue-300 overflow-hidden h-lg  pt-1">
-      <div className="flex justify-center mb-1 pt-2">
+    <div id='home'  className="bg-blue-300 overflow-hidden h-lg  text-white pt-1">
+      <div className="flex justify-center mb-1 pt-2 ">
         <img
           className="rounded-full border-4 border-white shadow"
           src="/images/pp.jpg"
@@ -12,8 +12,8 @@ export default function Home(props) {
           alt="profile"
         />
       </div>
-      <p className="font-bold italic text-3xl text-center">Ach Rizal</p>
-      <p className="text-black font-bold  text-center">
+      <p className="font-bold italic text-3xl text-center ">Ach Rizal</p>
+      <p className="font-bold  text-center">
         Mahasiswa || Web Development ||Mobile Development
       </p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">

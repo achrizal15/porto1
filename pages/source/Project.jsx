@@ -3,7 +3,7 @@ import React from "react";
 export default function Project() {
   return (
     <div className="bg-blue-300 py-2 px-4" id="project">
-      <h3 className="text-2xl font-bold italic text-center">My Project</h3>
+      <h3 className="text-2xl font-bold text-white italic text-center">My Project</h3>
       <div className="flex justify-center space-x-10">
         <ProjectCard
           judul="Dashboard Admin"
