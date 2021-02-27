@@ -3,8 +3,10 @@ import React from "react";
 export default function Project() {
   return (
     <div className="bg-blue-300 py-2 px-4" id="project">
-      <h3 className="text-2xl font-bold text-white italic text-center">My Project</h3>
-      <div className="flex justify-center space-x-10">
+      <h3 className="text-2xl font-bold text-white italic text-center">
+        My Project
+      </h3>
+      <div className="md:justify-center md:flex md:space-x-10">
         <ProjectCard
           judul="Dashboard Admin"
           gbr="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
@@ -47,6 +49,7 @@ export default function Project() {
 
 function ProjectCard(props) {
   return (
+    <div className="flex justify-center">
     <div className="shadow-lg w-80 transition hover:scale-110 transform hover:ease-in-out duration-700 rounded-lg overflow-hidden bg-white  my-4">
       <img
         className="rounded-b-md w-full  md:h-60 object-cover h-32"
@@ -55,12 +58,10 @@ function ProjectCard(props) {
       />
       <div className="px-4 text-gray-600 py-2">
         <p className="font-bold text-lg">{props.judul}</p>
-        <button className="transition delay-150 duration-300 hover:ease-in-out">
-          hh
-        </button>
+
         <hr className="mt-1 mb-3" />
         <div className="flex space-x-2">{props.children}</div>
       </div>
-    </div>
+    </div></div>
   );
 }
