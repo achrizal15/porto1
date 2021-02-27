@@ -8,6 +8,7 @@ export default function Project() {
       </h3>
       <div className="md:justify-center md:flex md:space-x-10">
         <ProjectCard
+          rt="md:-rotate-6"
           judul="Dashboard Admin"
           gbr="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
         >
@@ -28,6 +29,7 @@ export default function Project() {
           />
         </ProjectCard>
         <ProjectCard
+          rt="md:rotate-2"
           judul="Login Page"
           gbr="https://daengweb.id/uploads/galeri/1/Flutter/mengenal_widget_flutter_-_membuat_form_login-optimize.png"
         >
@@ -50,18 +52,24 @@ export default function Project() {
 function ProjectCard(props) {
   return (
     <div className="flex justify-center">
-    <div className="shadow-xl w-72 md:w-80 hover:rotate-2 border-2 transition hover:scale-110 transform hover:ease-in-out duration-700 rounded-lg overflow-hidden bg-white my-4">
-      <img
-        className="rounded-b-md w-full  md:h-60 object-cover h-32"
-        src={props.gbr}
-        alt="pr-1"
-      />
-      <div className="px-4 text-gray-600 py-2">
-        <p className="font-bold text-lg">{props.judul}</p>
+      <div
+        className={
+          "shadow-xl w-72 md:w-80 hover:rotate-0 border-2 transition hover:scale-110 transform hover:ease-in-out duration-700 rounded-lg overflow-hidden bg-white my-4 " +
+          props.rt
+        }
+      >
+        <img
+          className="rounded-b-md w-full  md:h-60 object-cover h-32"
+          src={props.gbr}
+          alt="pr-1"
+        />
+        <div className="px-4 text-gray-600 py-2">
+          <p className="font-bold text-lg">{props.judul}</p>
 
-        <hr className="mt-1 mb-3" />
-        <div className="flex space-x-2">{props.children}</div>
+          <hr className="mt-1 mb-3" />
+          <div className="flex space-x-2">{props.children}</div>
+        </div>
       </div>
-    </div></div>
+    </div>
   );
 }
