@@ -8,14 +8,14 @@ export default function Navbar() {
         <p className="font-bold italic text-white text-xl font-mono">
           <Link href="#home">Welcome To My Portfolio</Link>
         </p>
-        <div className="flex items-center font-mono">
-          <div className="px-2 text-blue-300 hover:text-white">
+        <div className="flex items-center font-mono text-md">
+          <div className="px-2 text-blue-400 hover:text-white">
             <Link href="#about">About</Link>
           </div>
-          <div className="px-2 text-blue-300 hover:text-white">
+          <div className="px-2 text-blue-400 hover:text-white">
             <Link href="#project">Project</Link>
           </div>
-          <div className="px-2 text-blue-300 hover:text-white">
+          <div className="px-2 text-blue-400 hover:text-white">
             <Link href="#contact">Contact</Link>
           </div>
         </div>

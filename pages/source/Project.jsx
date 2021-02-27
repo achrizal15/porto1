@@ -2,11 +2,11 @@ import React from "react";
 
 export default function Project() {
   return (
-    <div className="from-blue-300 bg-gradient-to-b to-blue-100 py-2 px-4" id="project">
+    <div className="from-blue-300 bg-gradient-to-b to-blue-100 " id="project">
       <h3 className="text-2xl font-bold text-white italic text-center">
         My Project
       </h3>
-      <div className="md:justify-center md:flex md:space-x-10">
+      <div className="md:justify-center md:flex md:space-x-10 py-2 px-4">
         <ProjectCard
           rt="md:-rotate-6 rotate-2"
           judul="Dashboard Admin"
@@ -45,6 +45,13 @@ export default function Project() {
           />
         </ProjectCard>
       </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 127 1440 150">
+        <path
+          fill="#f9fafb"
+          fillOpacity="1"
+          d="M0,288L34.3,282.7C68.6,277,137,267,206,240C274.3,213,343,171,411,160C480,149,549,171,617,176C685.7,181,754,171,823,154.7C891.4,139,960,117,1029,133.3C1097.1,149,1166,203,1234,229.3C1302.9,256,1371,256,1406,256L1440,256L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
+        ></path>
+      </svg>
     </div>
   );
 }
