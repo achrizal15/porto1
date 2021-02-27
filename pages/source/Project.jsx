@@ -61,7 +61,7 @@ function ProjectCard(props) {
     <div className="flex justify-center">
       <div
         className={
-          "shadow-xl w-72 md:w-80 hover:rotate-0 border-2 transition hover:scale-110 transform hover:ease-in-out duration-700 rounded-lg overflow-hidden bg-white my-4 " +
+          "shadow-xl  w-72 md:w-80 hover:rotate-0 border-2 transition hover:scale-110 transform hover:ease-in-out duration-700 rounded-lg overflow-hidden bg-white my-4 " +
           props.rt
         }
       >
