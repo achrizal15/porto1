@@ -3,8 +3,8 @@ import React from "react";
 export default function Footer() {
   return (
     <div>
-      <footer className="flex justify-center space-x-2 items-center">
-        <p className="font-bold text-lg">Copyright </p>
+      <footer className="flex justify-center space-x-2 items-center italic text-gray-600">
+        <p className="font-bold text-md">Copyright </p>
         <svg
           className="w-4 text-red-700"
           xmlns="http://www.w3.org/2000/svg"
@@ -17,7 +17,7 @@ export default function Footer() {
             clipRule="evenodd"
           />
         </svg>
-        <p className="font-bold text-lg">Ach Rizal 2021</p>
+        <p className="font-bold text-md">Ach Rizal 2021</p>
       </footer>
     </div>
   );
