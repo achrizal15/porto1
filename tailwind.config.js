@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       spacing: {
-        heading: '450px',
+        heading: '480px',
        },
        animation: {
         'bounce-slow': 'bounce 1.5s infinite',
