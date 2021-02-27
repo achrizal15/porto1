@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Project() {
   return (
-    <div className="bg-blue-300 py-2 px-4" id="project">
+    <div className="from-blue-300 bg-gradient-to-b to-blue-100 py-2 px-4" id="project">
       <h3 className="text-2xl font-bold text-white italic text-center">
         My Project
       </h3>

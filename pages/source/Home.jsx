@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Home(props) {
   return (
-    <div id='home'  className="bg-blue-300 overflow-hidden h-lg 2xl:h-heading text-white pt-1">
+    <div id='home'  className="bg-gradient-to-t from-blue-400 to-blue-100 overflow-hidden h-lg 2xl:h-heading text-white pt-1">
       <div className="flex justify-center mb-1 pt-2 ">
         <img
           className="rounded-full border-4 border-white shadow"
