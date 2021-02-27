@@ -8,7 +8,7 @@ export default function Project() {
       </h3>
       <div className="md:justify-center md:flex md:space-x-10">
         <ProjectCard
-          rt="md:-rotate-6"
+          rt="md:-rotate-6 rotate-2"
           judul="Dashboard Admin"
           gbr="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
         >
