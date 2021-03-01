@@ -9,14 +9,14 @@ export default function Navbar() {
           <Smooth.Link to="home" smooth className='cursor-pointer'>Welcome To My Portfolio</Smooth.Link>
         </p>
         <div className="flex items-center font-mono text-md">
-          <div className="px-2 text-blue-400 hover:text-white">
-            <Smooth.Link smooth className='cursor-pointer' to="about">About</Smooth.Link>
+          <div className="px-2 text-blue-400 hover:text-white cursor-pointer">
+            <Smooth.Link smooth  to="about">About</Smooth.Link>
           </div>
-          <div className="px-2 text-blue-400 hover:text-white">
-            <Smooth.Link smooth className='cursor-pointer' to="project">Project</Smooth.Link>
+          <div className="px-2 text-blue-400 hover:text-white cursor-pointer">
+            <Smooth.Link smooth to="project">Project</Smooth.Link>
           </div>
-          <div className="px-2 text-blue-400 hover:text-white">
-            <Smooth.Link smooth className='cursor-pointer' to="contact">Contact</Smooth.Link>
+          <div className="px-2 text-blue-400 hover:text-white cursor-pointer">
+            <Smooth.Link smooth to="contact">Contact</Smooth.Link>
           </div>
         </div>
       </div>
