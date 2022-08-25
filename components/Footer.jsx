@@ -17,7 +17,7 @@ export default function Footer() {
             clipRule="evenodd"
           />
         </svg>
-        <p className="font-bold text-md">Ach Rizal 2021</p>
+        <p className="font-bold text-md">Ach Rizal 2019</p>
       </footer>
     </div>
   );
